@@ -33,6 +33,9 @@
     "test": "FORCE_COLOR=1 npm-run-all lint test:*",
     "test:vitest": "vitest run"
   },
+  "dependencies": {
+    "@types/glob": "^7.2.0"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "@scalvert/bin-tester": "^2.0.0",
