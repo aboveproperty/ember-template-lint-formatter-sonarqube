@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/scalvert/ember-template-lint-formatter-sonarqube.git"
+    "url": "https://github.com/aboveproperty/ember-template-lint-formatter-sonarqube.git"
   },
   "license": "MIT",
   "author": "Steve Calvert",
@@ -58,8 +58,7 @@
     "ember-template-lint": ">=4.3.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+    "registry": "https://nexus.dev.abvprp.com/content/repositories/npm-internal/"
   },
   "release-it": {
     "plugins": {
