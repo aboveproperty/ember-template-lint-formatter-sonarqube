@@ -33,9 +33,6 @@
     "test": "FORCE_COLOR=1 npm-run-all lint test:*",
     "test:vitest": "vitest run"
   },
-  "dependencies": {
-    "@types/glob": "^7.2.0"
-  },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "@scalvert/bin-tester": "^2.0.0",
@@ -61,8 +58,7 @@
     "ember-template-lint": ">=4.3.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+    "registry": "https://nexus.dev.abvprp.com/content/repositories/npm-internal/"
   },
   "release-it": {
     "plugins": {
